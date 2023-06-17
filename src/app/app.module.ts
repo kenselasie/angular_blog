@@ -10,6 +10,8 @@ import { BlogTabsComponent } from './components/blog-tabs/blog-tabs.component';
 import { ButtonComponent } from './widgets/button/button.component';
 import { TypographyComponent } from './widgets/typography/typography.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PricingComponent } from './pages/pricing/pricing.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BlogTabsComponent,
     ButtonComponent,
     TypographyComponent,
+    PricingComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
