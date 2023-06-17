@@ -1,5 +1,5 @@
 <div 
-  class="typograpy__base_style"
+  class="app__typograpy"
   [style.color]="color"
   [ngClass]="{
       'text__xxs': size === 'xxs',
@@ -14,7 +14,7 @@
       'font__regular': weight === 'regular',
       'font__semibold': weight === 'semibold',
       'underlined': underlined,
-    'font__bold': weight === 'bold'
+      'font__bold': weight === 'bold'
   }">
     <ng-content></ng-content>
 </div>

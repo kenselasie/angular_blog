@@ -6,11 +6,12 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./button.component.scss']
 })
 export class ButtonComponent {
-  @Input() btnClass = 'btn-light';
+  @Input() variant?: "light" | "dark";
   @Input() rounded?: boolean;
+  @Input() size?: "xs" | "s" | "m" | "l" | "xl";
+
   
-  ngOnInit(): void {
+ ngOnInit(): void {
 
   }
-
 }

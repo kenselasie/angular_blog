@@ -4,8 +4,10 @@
             <app-typography [weight]="'semibold'" [size]="'xxxxl'">Untitled Blog</app-typography>
             <div class="input-group mt-5">
                 <input type="text" class="form-control" name="email" placeholder="Enter your email">
-                <span class="input-group-btn">
-                    <button class="btn btn-dark" type="button">Subscribe</button>
+                <span class="input__button">
+                    <app-button [rounded]="true" [size]="'l'" [variant]="'dark'" type="button">
+                        <app-typography>Subscribe</app-typography> 
+                    </app-button>
                 </span>
             </div>
         </div>

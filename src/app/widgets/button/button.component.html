@@ -1,3 +1,15 @@
-<button class="btn px-4" [ngClass]="rounded ? ['btn_rounded', btnClass] : btnClass">
+<!-- [ngClass]="rounded ? ['btn_rounded', btnClass] : btnClass"> -->
+<button 
+   class="app__button btn px-4" 
+   [ngClass]="{
+      'btn-dark': variant === 'dark',
+      'btn-light': variant === 'light',
+      'btn_rounded': rounded,
+      'btn__xs': size === 'xs',
+      'btn__s': size === 's',
+      'btn__m': size === 'm',
+      'btn__l': size === 'l',
+      'btn__xl': size === 'xl',
+   }">
    <ng-content></ng-content>
 </button>
