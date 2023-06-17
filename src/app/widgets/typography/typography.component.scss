@@ -1,0 +1,40 @@
+.typograpy__base_style {
+    text-align: left;
+    display: flex;
+}
+.text__xxs {
+    font-size: var(--font-size-xxs);
+}
+.text__xs {
+    font-size: var(--font-size-xs);
+}
+.text__s {
+    font-size: var(--font-size-s);
+}
+.text__m {
+    font-size: var(--font-size-m);
+}
+.text__l {
+    font-size: var(--font-size-l);
+}
+.text__xl {
+    font-size: var(--font-size-xl);
+}
+.text__xxl {
+    font-size: var(--font-size-xxl);
+}
+.text__xxxl {
+    font-size: var(--font-size-xxxl);
+}
+.text__xxxxl {
+    font-size: var(--font-size-xxxxl);
+}
+.font__regular {
+    font-weight: var(--font-weight-regular);
+}
+.font__semibold {
+    font-weight: var(--font-weight-semibold);
+}
+.font__bold {
+    font-weight: var(--font-weight-bold);
+}

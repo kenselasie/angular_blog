@@ -1,0 +1,24 @@
+<section class="blog__grid">
+    <div *ngFor="let blog of blogData" class="blog">
+        <div class="blog-img">
+            <img [src]="blog.imageUrl" alt="">
+            <div class="overlay d-flex justify-content-between">
+                <div>
+                    <div class="d-flex">
+                        <app-typography [size]="'s'">{{blog.author}}</app-typography>
+                    </div>
+                    <div class="d-flex">
+                        <app-typography [size]="'s'">{{blog.date}}</app-typography>
+                    </div>
+                </div>
+                <div>
+                    <app-typography [size]="'s'">{{blog.category}}</app-typography>
+                </div>
+            </div>
+        </div>
+        <div class="blog-content">
+            <app-typography [weight]="'semibold'" [size]="'xl'">{{blog.title}}</app-typography>
+            <app-typography [color]="'var(--app-grey)'" [weight]="'regular'" [size]="'m'">{{blog.subtitle}}</app-typography>
+        </div>
+    </div>
+</section>

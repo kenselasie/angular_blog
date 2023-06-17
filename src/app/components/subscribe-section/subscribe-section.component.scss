@@ -1,0 +1,23 @@
+ .form-control {
+    border-radius: 30px;
+    border: 1px solid black;
+    &:focus {
+        z-index: 0;
+        outline: none;
+
+    }
+}
+button {
+    border: none;
+    height: 50px;
+    color: #fff;
+    margin: -1px;
+    border-radius: 30px;
+    width: 135px;
+    position: relative;
+    right: 40px;
+}
+
+.subscribe_section_info {
+    max-width: 436px;
+}

@@ -1,0 +1,16 @@
+<div class="typograpy__base_style" [ngClass]="{
+    'text__xxs': size === 'xxs',
+    'text__xs': size === 'xs',
+    'text__s': size === 's',
+    'text__m': size === 'm',
+    'text__l': size === 'l',
+    'text__xl': size === 'xl',
+    'text__xxl': size === 'xxl',
+    'text__xxxl': size === 'xxxl',
+    'text__xxxxl': size === 'xxxxl',
+    'font__regular': weight === 'regular',
+    'font__semibold': weight === 'semibold',
+    'font__bold': weight === 'bold'
+  }">
+    <ng-content></ng-content>
+</div>
