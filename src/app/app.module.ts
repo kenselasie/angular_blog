@@ -9,6 +9,7 @@ import { BlogPreviewComponent } from './components/blog-preview/blog-preview.com
 import { BlogTabsComponent } from './components/blog-tabs/blog-tabs.component';
 import { ButtonComponent } from './widgets/button/button.component';
 import { TypographyComponent } from './widgets/typography/typography.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TypographyComponent } from './widgets/typography/typography.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

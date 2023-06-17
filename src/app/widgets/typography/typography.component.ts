@@ -9,4 +9,5 @@ export class TypographyComponent {
   @Input() size?: "xxs" | "xs" | "s" | "m" | "l" | "xl" | "xxl" | "xxxl" | "xxxxl" = 'm';
   @Input() weight?: "regular" | "semibold" | "bold" = 'regular';
   @Input() color?: string;
+  @Input() underlined?: boolean;
 }

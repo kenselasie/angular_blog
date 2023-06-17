@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-blog-preview',
@@ -6,6 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./blog-preview.component.scss']
 })
 export class BlogPreviewComponent {
+  faArrowUpRightFromSquare = faArrowUpRightFromSquare;
+
   blogData = [ {
     id: 1,
     title: 'UX review presentations',
